@@ -1,0 +1,10 @@
+a = int(input("Enter a:"))
+b = int(input("Enter b:"))
+c = int(input("Enter c:"))
+print("a is: " + str(a))
+print("a is: " + str(b))
+print("a is: " + str(c))
+
+sol1 = (-b-((b*b)-(4*a*c))**0.5)/(2*a)
+sol2 = (-b+((b*b)-(4*a*c))**0.5)/(2*a)
+print('The solution are {0} and {1}'.format(sol1,sol2))
