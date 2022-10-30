@@ -5,6 +5,9 @@ print("a is: " + str(a))
 print("a is: " + str(b))
 print("a is: " + str(c))
 
-sol1 = (-b-((b*b)-(4*a*c))**0.5)/(2*a)
-sol2 = (-b+((b*b)-(4*a*c))**0.5)/(2*a)
-print('The solution are {0} and {1}'.format(sol1,sol2))
+sol1 = (-b-((b**2)-(4*a*c)))/(2*a)
+sol2 = (-b+((b**2)-(4*a*c)))/(2*a)
+# sol1 = float(abs(sol1))
+# sol2 = float(abs(sol2))
+print
+print('The solution are {0:.2f} and {1:.2f}'.format(sol1,sol2))
